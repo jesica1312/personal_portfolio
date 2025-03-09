@@ -30,17 +30,21 @@ document.addEventListener('DOMContentLoaded', function () {
                     <div class="experience-container">
 
                         <div class="experience-item">
-                            <h4>Software Engineer (Student Assistant II)</h4>
-                            <span class="company-duration">University of California, Riverside</span><br>
-                            <span class="company-duration">Jan 2024 - Present</span>
+                            <h4>Data Analyst</h4>
+                            <span class="company-duration">Rogers, Anderson, Malody & Scott, LLP, San Bernardino</span><br>
+                            <span class="company-duration">March 2024 - Present</span>
                             <div class="experience-content">
-                                <p>At UCR, I am leading the development of <strong>CupCake</strong>, an innovative carbon cycle visualization tool. 
-                                The project combines <strong>React</strong> on the front end and <strong>Python</strong> on the back end to create a seamless experience for 
-                                researchers analyzing complex environmental data. This experience has allowed me to hone my skills in full-stack development 
-                                while contributing to research efforts addressing climate change.</p>
-                                <p>Additionally, I am spearheading the development of a <strong>Retrieval-Augmented Generation (RAG)</strong>-based chatbot model. 
-                                This tool dynamically retrieves relevant scientific content, providing insightful responses in real time to assist researchers 
-                                in their inquiries.</p>
+                                <p>At Rogers, Anderson, Melody & Scott LLP, I streamlined data operations and <strong>optimized reporting processes</strong>, 
+                                enhancing decision-making across the firm. By developing <strong>automated data analysis workflows</strong> using 
+                                Excel and SQL, I reduced manual reporting time by <strong>30%</strong> and improved data accuracy by <strong>20%</strong>. I
+                                collaborated with cross-functional teams to design and maintain <strong>interactive dashboards in Power BI</strong>, 
+                                providing <strong>real-time insights</strong> into <strong>key financial and operational metrics</strong>, which improved leadership’s 
+                                decision-making efficiency by <strong>25%</strong>. Additionally, I conducted ad-hoc analyses, identifying trends and inefficiencies
+                                that led to process improvements and a <strong>15% increase in operational efficiency</strong>.
+                                <p>This role has strengthened my expertise in <strong>data visualization, business intelligence, 
+                                and process automation</strong>, equipping me with the ability to translate raw data into actionable insights that drive business growth.</p>
+
+</p>
                             </div>
                         </div>
 
@@ -314,41 +318,41 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'backend':
                 content = `
                     <div class="skills__details">
-                        <h3>Backend Development</h3>
-                        <p>Java (Spring Boot, Java 8+) - Built scalable microservices and APIs.</p>
-                        <p>Python (FastAPI, Flask) - Developed high-performance backend systems.</p>
-                        <p>Docker, Kubernetes, ArgoCD - Led microservice containerization for scalability.</p>
-                        <p>PostgreSQL, MongoDB, Cassandra - Engineered databases for high throughput.</p>
+                        <h3>Data Analysis & Visualization</h3>
+                        <p>SQL (MySQL, PostgreSQL, SQL Server) – Extracted, transformed, and analyzed data to support business decisions.</p>
+                        <p>Excel (Pivot Tables, VLOOKUP, Power Query) – Built dynamic reports and automated data analysis workflows.</p>
+                        <p>Power BI, Tableau – Created interactive dashboards to visualize trends and key insights.</p>
+    
                     </div>`;
                 break;
 
             case 'ai-ml':
                 content = `
                     <div class="skills__details">
-                        <h3>AI/ML Expertise</h3>
-                        <p>Machine Learning & AI - Developed models using TensorFlow, PyTorch, and Scikit-learn.</p>
-                        <p>NLP & Chatbots - Built RAG-based conversational systems.</p>
-                        <p>Data Pipelines - Designed data processing pipelines using Pandas, NumPy, and Spark.</p>
+                        <h3>Data Processing & ETL</h3>
+                        <p>Python (Pandas, NumPy, OpenPyXL) – Cleaned, transformed, and analyzed large datasets.</p>
+                        <p>ETL Pipelines (SQL, Python, Power Query) – Designed data workflows for reporting and analysis.</p>
+                        <p>Data Wrangling & Automation – Automated repetitive data processes to improve efficiency.</p>
                     </div>`;
                 break;
 
             case 'fullstack':
                 content = `
                     <div class="skills__details">
-                        <h3>Full Stack & Frontend Development</h3>
-                        <p>ReactJS, JavaScript - Built interactive UIs with efficient state management.</p>
-                        <p>HTML5, CSS3 - Created responsive layouts optimized for multiple devices.</p>
-                        <p>API Integration - Integrated backend APIs with REST and GraphQL.</p>
+                        <h3>Business Intelligence & Reporting</h3>
+                        <p>KPI Analysis & Business Reporting – Generated insights to optimize operational performance.</p>
+                        <p>Ad-hoc Analysis & Decision Support – Provided data-driven recommendations to stakeholders.</p>
+                        <p>Google Analytics & Web Tracking – Analyzed website and user behavior trends.</p>
                     </div>`;
                 break;
 
             case 'cloud':
                 content = `
                     <div class="skills__details">
-                        <h3>Cloud & DevOps</h3>
-                        <p>AWS, GCP, OCI - Architected cloud-native solutions with scalability in mind.</p>
-                        <p>CI/CD Pipelines - Streamlined development with Jenkins and ArgoCD.</p>
-                        <p>Prometheus, Grafana - Integrated monitoring and alerting for operational efficiency.</p>
+                        <h3>Data-Driven Problem Solving</h3>
+                        <p>A/B Testing & Experimentation – Designed and analyzed tests to optimize business strategies.</p>
+                        <p>Predictive Analytics (Regression, Clustering) – Used statistical techniques to forecast trends.</p>
+                        <p>Stakeholder Collaboration – Worked with cross-functional teams to translate data into action.</p>
                     </div>`;
                 break;
 
